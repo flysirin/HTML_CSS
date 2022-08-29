@@ -1,10 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+      .row_date, .row_head {color: black}
+      h5 {
+          font-weight: 400; font-size: 20px; line-height: 23px
+      }
+      .portfolio {
+          margin-top: 64px; margin-bottom: 8px;
+      }
+      body {
+          font-family: Roboto, Roboto Light, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+      }
+      .footer {
+          margin-top: 64px;
+          padding-top: 16px;
+          padding-left: 39px;
+          padding-bottom: 16px;
+          color: #6C757D;
+      }
+      .table-responsive {
+          padding-left: 39px;
+          padding-right: 39px;
+      }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="vendor/js/jquery-3.3.1.slim.min.js" defer></script>
+  <script src="vendor/js/popper.min.js" async></script>
+  <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+  <script src="vendor/js/bootstrap.min.js" defer></script>
+  <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Service for the placement of scientific paper</title>
 </head>
 <body>
+
+  <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #343A40;">
+  <a class="navbar-brand btn btn-dark" href="#" style="color: white">НЛК</a>
+  <button class="navbar-toggler btn btn-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" style="color: white"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link btn btn-dark" href="#" style="color: white">Портфолио  <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link btn btn-dark" href="#" style="color: white">Рейтинг  </a>
+      <a class="nav-item nav-link btn btn-dark" href="#" style="color: white">Помощь    </a>
+
+    </div>
+  </div>
+</nav>
+  <div class="row" style="background-color: #E9ECEF;">
+
+      <div class="container" style="margin-left: 48px">
+        <div class="col-lg-7 col-md-11 col-sm-12">
+        <h1 class="portfolio" style="font-weight: 300; font-size: 72px; line-height: 84px;">Портфолио</h1>
+          <p>Это место, где собраны ваши научные публикации. Здесь вы можете добавлять свои научные работы, получать информацию об их уникальности и смотреть отзывы ваших научных руководителей.
+          </p>
+        </div>
+
+          <button type="button" class="btn btn-primary col-lg-3 col-md-4 col-sm-5" style="margin-top: 16px; margin-bottom: 64px; margin-left: 16px">Добавить работу</button>
+
+      </div>
+
+  </div>
+  <div class="card-columns" style="margin-left: 55px; margin-top: 32px">
+
+    <div class="card">
+      <div class="card-header">
+        Ваш профиль
+      </div>
+      <div class="card-body">
+        <h5 class="card-title" style="font-size: 20px; font-weight: 400; line-height: 23px">Сергей Павлович Фролов</h5>
+        <p class="card-text"><b>Научная степень: </b>Магистр. <br>
+            <b>Специализация: </b>Инвестиционные проблемы экономически развивающихся рынков.</p>
+        <a href="#" class="btn btn-primary">Редактировать</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        Статистика
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Статистика</h5>
+        <p class="card-text"><b>На платформе: </b>2 года.<br>
+          <b>Добавлено работ: </b> 10. <br>
+          <b>Средняя уникальность: </b> 75%. <br>
+          <b>Языки работ: </b> русский, английский.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+    <div class="table-responsive">
+    <table class="table table-hover table-striped" style="margin-top: 32px; color: #007BFF;">
+      <thead style="font-weight: 700; font-size: 16px; line-height: 19px">
+      <tr>
+        <td class="row_head">Название работы</td>
+        <td class="row_head">Дата загрузки</td>
+        <td class="row_head">Научный руководитель</td>
+        <td class="row_head">Уникальность</td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Привлечение инвестиций как фактор развития экономики</td>
+        <td class="row_date">21.05.2019</td>
+        <td>Асаншоева А.М.</td>
+        <td>89%</td>
+      </tr>
+      <tr>
+        <td>The role of accounting in sustainable development</td>
+        <td class="row_date">11.02.2019</td>
+        <td>Шаляпина В.С.</td>
+        <td>78%</td>
+      </tr>
+      <tr>
+        <td>Сценарный анализ как инструмент учета рисков инвестиционного проекта</td>
+        <td class="row_date">05.09.2018</td>
+        <td>Васильев М.Г.</td>
+        <td>67%</td>
+      </tr>
+      <tr>
+        <td>Глобальные и региональные инвестиционные тенденции</td>
+        <td class="row_date">09.07.2018</td>
+        <td>Асаншоева А.М.</td>
+        <td>73%</td>
+      </tr>
+      <tr>
+        <td>Systemic risks in financial markets</td>
+        <td class="row_date">18.05.2018</td>
+        <td>Леонидов В.Б.</td>
+        <td>77%</td>
+      </tr>
+      <tr>
+        <td>The influence of tax regulation liberalisation on the domestic debt market</td>
+        <td class="row_date">09.03.2018</td>
+        <td>Шаляпина В.С.</td>
+        <td>82%</td>
+      </tr>
+      <tr>
+        <td>Биткоин как новый вид инвестиций</td>
+        <td class="row_date">29.01.2018</td>
+        <td>Асаншоева А.М.</td>
+        <td>71%</td>
+      </tr>
+      <tr>
+        <td>Проблема воспроизводства жилищного фонда в России</td>
+        <td class="row_date">08.11.2017</td>
+        <td>Васильев М.Г.</td>
+        <td>65%</td>
+      </tr>
+      <tr>
+        <td>Влияние безработицы на экономику СНГ</td>
+        <td class="row_date">17.09.2017</td>
+        <td>Васильев М.Г.</td>
+        <td>68%</td>
+      </tr>
+      <tr>
+        <td>Мировой валютный рынок Форекс</td>
+        <td class="row_date">02.07.2017</td>
+        <td>Васильев М.Г.</td>
+        <td>67%</td>
+      </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <footer class="container-fluid" style="background-color: #F5F5F5;">
+    <p class="footer">© Научный личный кабинет. Все права защищены</p>
+  </footer>
 
 </body>
 </html>
